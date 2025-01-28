@@ -1,0 +1,105 @@
+[
+    {
+      "product_id": "macbook1",
+      "product_title": "MacBook Air M2",
+      "product_image": "https://i.ibb.co.com/J22HLrW/Apple-Mac-Book-Pro-M2-Feature-Blue-Green.jpg",
+      "category": "MacBooks",
+      "price": 1199.99,
+      "description": "The ultra-light and portable MacBook Air with the M2 chip for powerful performance.",
+      "Specification": [
+        "Apple M2 Chip",
+        "8GB Unified Memory",
+        "256GB SSD Storage",
+        "13.6-inch Liquid Retina Display",
+        "18-Hour Battery Life"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "macbook2",
+      "product_title": "MacBook Pro 13 M2",
+      "product_image": "https://i.ibb.co.com/J22HLrW/Apple-Mac-Book-Pro-M2-Feature-Blue-Green.jpg",
+      "category": "MacBooks",
+      "price": 1299.99,
+      "description": "A powerful 13-inch MacBook Pro with the M2 chip, designed for professionals on the go.",
+      "Specification": [
+        "Apple M2 Chip",
+        "8GB Unified Memory",
+        "512GB SSD Storage",
+        "13.3-inch Retina Display",
+        "20-Hour Battery Life"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "macbook3",
+      "product_title": "MacBook Pro 14 M2 Pro",
+      "product_image": "https://i.ibb.co.com/J22HLrW/Apple-Mac-Book-Pro-M2-Feature-Blue-Green.jpg",
+      "category": "MacBooks",
+      "price": 1999.99,
+      "description": "A high-performance MacBook Pro with M2 Pro chip, designed for demanding tasks.",
+      "Specification": [
+        "Apple M2 Pro Chip",
+        "16GB Unified Memory",
+        "512GB SSD Storage",
+        "14.2-inch Liquid Retina XDR Display",
+        "17-Hour Battery Life"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "macbook4",
+      "product_title": "MacBook Pro 16 M2 Pro",
+      "product_image": "https://i.ibb.co.com/J22HLrW/Apple-Mac-Book-Pro-M2-Feature-Blue-Green.jpg",
+      "category": "MacBooks",
+      "price": 2499.99,
+      "description": "A professional-grade MacBook Pro with M2 Pro chip and a large 16-inch display.",
+      "Specification": [
+        "Apple M2 Pro Chip",
+        "16GB Unified Memory",
+        "1TB SSD Storage",
+        "16.2-inch Liquid Retina XDR Display",
+        "22-Hour Battery Life"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "macbook5",
+      "product_title": "MacBook Air M1",
+      "product_image": "https://i.ibb.co.com/J22HLrW/Apple-Mac-Book-Pro-M2-Feature-Blue-Green.jpg",
+      "category": "MacBooks",
+      "price": 999.99,
+      "description": "The original M1-powered MacBook Air with impressive performance and battery life.",
+      "Specification": [
+        "Apple M1 Chip",
+        "8GB Unified Memory",
+        "256GB SSD Storage",
+        "13.3-inch Retina Display",
+        "18-Hour Battery Life"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "macbook6",
+      "product_title": "MacBook Pro 16 M2 Max",
+      "product_image": "https://i.ibb.co.com/J22HLrW/Apple-Mac-Book-Pro-M2-Feature-Blue-Green.jpg",
+      "category": "MacBooks",
+      "price": 3499.99,
+      "description": "The ultimate MacBook Pro with M2 Max chip for extreme performance and high-end workflows.",
+      "Specification": [
+        "Apple M2 Max Chip",
+        "32GB Unified Memory",
+        "1TB SSD Storage",
+        "16.2-inch Liquid Retina XDR Display",
+        "21-Hour Battery Life"
+      ],
+      "availability": true,
+      "rating": 4.9
+    }
+  ]
+  

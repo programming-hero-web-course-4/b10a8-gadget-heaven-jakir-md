@@ -1,0 +1,5 @@
+#productsid > a.active {
+    background-color: #9538e2;
+    font-weight: bold;
+    color:white
+}

@@ -1,0 +1,313 @@
+[
+    {
+      "product_id": "laptop1",
+      "product_title": "Dell XPS 13",
+      "product_image": "https://i.ibb.co.com/XZX5pSh/hero-image.webp",
+      "category": "Laptops",
+      "price": 999.99,
+      "description": "A premium ultrabook with a sleek design, 13.4-inch display, and powerful performance.",
+      "Specification": [
+        "Intel Core i7 Processor",
+        "16GB RAM",
+        "512GB SSD",
+        "Intel Iris Xe Graphics",
+        "13.4-inch FHD+ Display"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "laptop2",
+      "product_title": "Apple MacBook Air M2",
+      "product_image": "https://i.ibb.co.com/XZX5pSh/hero-image.webp",
+      "category": "Laptops",
+      "price": 1199.99,
+      "description": "Lightweight and powerful with the Apple M2 chip, offering great battery life and performance.",
+      "Specification": [
+        "Apple M2 Chip",
+        "8GB Unified Memory",
+        "256GB SSD",
+        "13.6-inch Liquid Retina Display",
+        "Magic Keyboard"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "laptop3",
+      "product_title": "HP Spectre x360",
+      "product_image": "https://i.ibb.co.com/XZX5pSh/hero-image.webp",
+      "category": "Laptops",
+      "price": 1249.99,
+      "description": "A versatile 2-in-1 laptop with a stunning touchscreen and 360-degree hinge for flexibility.",
+      "Specification": [
+        "Intel Core i7 Processor",
+        "16GB RAM",
+        "1TB SSD",
+        "Intel Iris Xe Graphics",
+        "13.5-inch OLED Touchscreen"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "laptop4",
+      "product_title": "Lenovo ThinkPad X1 Carbon",
+      "product_image": "https://i.ibb.co.com/XZX5pSh/hero-image.webp",
+      "category": "Laptops",
+      "price": 1399.99,
+      "description": "A business laptop with robust security features, lightweight design, and impressive performance.",
+      "Specification": [
+        "Intel Core i7 Processor",
+        "16GB RAM",
+        "512GB SSD",
+        "Intel Iris Xe Graphics",
+        "14-inch FHD+ Display"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "laptop5",
+      "product_title": "Asus ROG Zephyrus G14",
+      "product_image": "https://i.ibb.co.com/XZX5pSh/hero-image.webp",
+      "category": "Laptops",
+      "price": 1499.99,
+      "description": "A compact gaming laptop with AMD Ryzen power, GeForce RTX graphics, and excellent cooling.",
+      "Specification": [
+        "AMD Ryzen 9 Processor",
+        "16GB RAM",
+        "1TB SSD",
+        "NVIDIA GeForce RTX 4060",
+        "14-inch QHD Display"
+      ],
+      "availability": false,
+      "rating": 4.5
+    },
+    {
+      "product_id": "laptop6",
+      "product_title": "Acer Aspire 5",
+      "product_image": "https://i.ibb.co.com/XZX5pSh/hero-image.webp",
+      "category": "Laptops",
+      "price": 549.99,
+      "description": "An affordable laptop with reliable performance for everyday tasks and productivity.",
+      "Specification": [
+        "Intel Core i5 Processor",
+        "8GB RAM",
+        "512GB SSD",
+        "Intel UHD Graphics",
+        "15.6-inch FHD Display"
+      ],
+      "availability": true,
+      "rating": 4.3
+    },
+
+    {
+      "product_id": "mobile1",
+      "product_title": "Samsung Galaxy S23",
+      "product_image": "https://i.ibb.co.com/XLzBBxP/oqqx-IRPr87e-To2e9.png",
+      "category": "Mobile Phones",
+      "price": 799.99,
+      "description": "The latest flagship smartphone from Samsung with cutting-edge features and performance.",
+      "Specification": [
+        "Qualcomm Snapdragon 8 Gen 2 Processor",
+        "8GB RAM",
+        "256GB Storage",
+        "50MP + 12MP + 10MP Triple Camera",
+        "6.1-inch Dynamic AMOLED 2X Display"
+      ],
+      "availability": false,
+      "rating": 4.7
+    },
+    {
+      "product_id": "mobile2",
+      "product_title": "Apple iPhone 14",
+      "product_image": "https://i.ibb.co.com/XLzBBxP/oqqx-IRPr87e-To2e9.png",
+      "category": "Mobile Phones",
+      "price": 899.00,
+      "description": "The latest iPhone with A15 Bionic chip, improved cameras, and long battery life.",
+      "Specification": [
+        "A15 Bionic Processor",
+        "6GB RAM",
+        "128GB Storage",
+        "12MP Dual Camera System",
+        "6.1-inch Super Retina XDR Display"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "mobile3",
+      "product_title": "Google Pixel 7",
+      "product_image": "https://i.ibb.co.com/XLzBBxP/oqqx-IRPr87e-To2e9.png",
+      "category": "Mobile Phones",
+      "price": 599.99,
+      "description": "Google's latest smartphone with exceptional AI features and a clean Android experience.",
+      "Specification": [
+        "Google Tensor G2 Processor",
+        "8GB RAM",
+        "128GB Storage",
+        "50MP + 12MP Dual Camera",
+        "6.3-inch AMOLED Display"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "mobile4",
+      "product_title": "OnePlus 11",
+      "product_image": "https://i.ibb.co.com/XLzBBxP/oqqx-IRPr87e-To2e9.png",
+      "category": "Mobile Phones",
+      "price": 699.99,
+      "description": "A flagship killer with powerful specs, fast charging, and smooth OxygenOS experience.",
+      "Specification": [
+        "Qualcomm Snapdragon 8 Gen 2 Processor",
+        "16GB RAM",
+        "256GB Storage",
+        "50MP + 48MP + 32MP Triple Camera",
+        "6.7-inch AMOLED 120Hz Display"
+      ],
+      "availability": false,
+      "rating": 4.5
+    },
+    {
+      "product_id": "mobile5",
+      "product_title": "Xiaomi 13 Pro",
+      "product_image": "https://i.ibb.co.com/XLzBBxP/oqqx-IRPr87e-To2e9.png",
+      "category": "Mobile Phones",
+      "price": 799.00,
+      "description": "High-performance smartphone with Leica cameras and blazing-fast charging.",
+      "Specification": [
+        "Qualcomm Snapdragon 8 Gen 2 Processor",
+        "12GB RAM",
+        "256GB Storage",
+        "50MP + 50MP + 50MP Triple Leica Camera",
+        "6.73-inch AMOLED 120Hz Display"
+      ],
+      "availability": true,
+      "rating": 4.6
+      
+    },
+    
+    {
+      "product_id": "mobile6",
+      "product_title": "Realme GT Neo 5",
+      "product_image": "https://i.ibb.co.com/XLzBBxP/oqqx-IRPr87e-To2e9.png",
+      "category": "Mobile Phones",
+      "price": 549.99,
+      "description": "A performance-focused smartphone with lightning-fast 240W charging technology.",
+      "Specification": [
+        "Qualcomm Snapdragon 8+ Gen 1 Processor",
+        "8GB RAM",
+        "256GB Storage",
+        "50MP + 8MP + 2MP Triple Camera",
+        "6.74-inch AMOLED 144Hz Display"
+      ],
+      "availability": false,
+      "rating": 4.4
+    },
+
+    {
+      "product_id": "macbook1",
+      "product_title": "MacBook Air M2",
+      "product_image": "https://i.ibb.co.com/J22HLrW/Apple-Mac-Book-Pro-M2-Feature-Blue-Green.jpg",
+      "category": "MacBooks",
+      "price": 1199.99,
+      "description": "The ultra-light and portable MacBook Air with the M2 chip for powerful performance.",
+      "Specification": [
+        "Apple M2 Chip",
+        "8GB Unified Memory",
+        "256GB SSD Storage",
+        "13.6-inch Liquid Retina Display",
+        "18-Hour Battery Life"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "macbook2",
+      "product_title": "MacBook Pro 13 M2",
+      "product_image": "https://i.ibb.co.com/J22HLrW/Apple-Mac-Book-Pro-M2-Feature-Blue-Green.jpg",
+      "category": "MacBooks",
+      "price": 1299.99,
+      "description": "A powerful 13-inch MacBook Pro with the M2 chip, designed for professionals on the go.",
+      "Specification": [
+        "Apple M2 Chip",
+        "8GB Unified Memory",
+        "512GB SSD Storage",
+        "13.3-inch Retina Display",
+        "20-Hour Battery Life"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "macbook3",
+      "product_title": "MacBook Pro 14 M2 Pro",
+      "product_image": "https://i.ibb.co.com/J22HLrW/Apple-Mac-Book-Pro-M2-Feature-Blue-Green.jpg",
+      "category": "MacBooks",
+      "price": 1999.99,
+      "description": "A high-performance MacBook Pro with M2 Pro chip, designed for demanding tasks.",
+      "Specification": [
+        "Apple M2 Pro Chip",
+        "16GB Unified Memory",
+        "512GB SSD Storage",
+        "14.2-inch Liquid Retina XDR Display",
+        "17-Hour Battery Life"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "macbook4",
+      "product_title": "MacBook Pro 16 M2 Pro",
+      "product_image": "https://i.ibb.co.com/J22HLrW/Apple-Mac-Book-Pro-M2-Feature-Blue-Green.jpg",
+      "category": "MacBooks",
+      "price": 2499.99,
+      "description": "A professional-grade MacBook Pro with M2 Pro chip and a large 16-inch display.",
+      "Specification": [
+        "Apple M2 Pro Chip",
+        "16GB Unified Memory",
+        "1TB SSD Storage",
+        "16.2-inch Liquid Retina XDR Display",
+        "22-Hour Battery Life"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "macbook5",
+      "product_title": "MacBook Air M1",
+      "product_image": "https://i.ibb.co.com/J22HLrW/Apple-Mac-Book-Pro-M2-Feature-Blue-Green.jpg",
+      "category": "MacBooks",
+      "price": 999.99,
+      "description": "The original M1-powered MacBook Air with impressive performance and battery life.",
+      "Specification": [
+        "Apple M1 Chip",
+        "8GB Unified Memory",
+        "256GB SSD Storage",
+        "13.3-inch Retina Display",
+        "18-Hour Battery Life"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "macbook6",
+      "product_title": "MacBook Pro 16 M2 Max",
+      "product_image": "https://i.ibb.co.com/J22HLrW/Apple-Mac-Book-Pro-M2-Feature-Blue-Green.jpg",
+      "category": "MacBooks",
+      "price": 3499.99,
+      "description": "The ultimate MacBook Pro with M2 Max chip for extreme performance and high-end workflows.",
+      "Specification": [
+        "Apple M2 Max Chip",
+        "32GB Unified Memory",
+        "1TB SSD Storage",
+        "16.2-inch Liquid Retina XDR Display",
+        "21-Hour Battery Life"
+      ],
+      "availability": true,
+      "rating": 4.9
+    }
+  ]
+  
