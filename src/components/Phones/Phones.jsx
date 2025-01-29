@@ -6,8 +6,9 @@ const Phones = () => {
     return (
         <div className="grid grid-cols-3">
             {
+                Array.isArray(phones) && 
                 phones.map((product, indx) => <ShowProduct key={indx} product={product}></ShowProduct>)
-            }
+           }
         </div>
     );
 };

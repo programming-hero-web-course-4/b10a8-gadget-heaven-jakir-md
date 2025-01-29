@@ -38,22 +38,47 @@ const Cart = () => {
         setCurrCart(sortedProducts);
     };
 
-    const totalPrice = currCart.reduce((acc, curr) => acc += curr.price, 0);
+    const purchaseHandler = () => {
+        document.getElementById('my_modal_5').showModal();
+        setCart([]);
+    }
+
+    const totalPrice = currCart.reduce((acc, curr) => acc += curr.price, 0).toFixed(2);
     return (
-        <div className="w-[70%] mx-auto my-5">
+        <div className="w-[70%] mx-auto py-5 my-5">
             <div className="flex justify-between mb-10">
                 <h1 className="text-3xl font-bold">Cart</h1>
                 <div className="flex items-center gap-5">
-                    <h1 className="text-xl font-bold">Total Cost: {totalPrice.toFixed(2)}</h1>
+                    <h1 className="text-xl font-bold">Total Cost: {totalPrice}</h1>
                     <button onClick={sortByPrice} className=" cursor-pointer flex items-center gap-2 text-[#9538e2] px-2 py-1 border rounded-full border-gray-300 font-bold">
                         Sort By Price
                         <SlEqualizer className="font-bold text-xl"/>
                     </button>
-                    <button className="cursor-pointer bg-[#9538e2] text-white font-bold px-2 py-1 rounded-2xl">
+                    <button onClick={purchaseHandler} className="cursor-pointer bg-[#9538e2] text-white font-bold px-3 py-2 rounded-2xl">
                         Purchase
                     </button>
                 </div>
             </div>
+            
+            <dialog id="my_modal_5" className="modal modal-bottom mx-auto p-10 px-5 pb-5 rounded-lg mt-36 sm:modal-middle">
+                <div className="modal-box text-center">
+                    <img src="/Group.png" className="mx-auto mb-2" alt="" />
+                    <h3 className="font-bold text-3xl">Payment Successfull</h3>
+                    <div className="h-[1px] mt-3 bg-gray-300 w-[80%] mx-auto">
+
+                    </div>
+                    <div className="text-sm text-gray-500 py-5">
+                        <p>Thanks For Purchasing.</p>
+                        <p>Total: {totalPrice}</p>
+                    </div>
+                    <div className="modal-action">
+                    <form method="dialog">
+                        {/* if there is a button in form, it will close the modal */}
+                        <button className="w-full cursor-pointer hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-2">Close</button>
+                    </form>
+                    </div>
+                </div>
+            </dialog>
             {
                 currCart.map((product, indx) => <ShowCartWish key={indx} removeHandler={removeHandler} product={product}></ShowCartWish>)
             }

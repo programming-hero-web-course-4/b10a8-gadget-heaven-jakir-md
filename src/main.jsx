@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 
 import Home from './components/Home/Home.jsx';
+import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
+
 import Products from './components/Products/Products.jsx';
 import Laptops from './components/Laptops/Laptops.jsx';
 import DashBoard from './components/DashBoard/DashBoard.jsx';
@@ -17,7 +19,6 @@ import Cart from './components/Cart/Cart.jsx';
 import WishList from './components/WishList/WishList.jsx';
 import Phones from './components/Phones/Phones.jsx';
 import Allproducts from './components/All-products/Allproducts.jsx';
-import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,11 @@ const router = createBrowserRouter([
             element: <Products></Products>,
             children: [
               {
+                path: '/',
+                loader: () => fetch('allProducts.json'),
+                element: <Allproducts></Allproducts>
+              },
+              {
                 path: '/laptops',
                 loader: () => fetch('/laptops.json'),
                 element: <Laptops></Laptops>
@@ -43,22 +49,12 @@ const router = createBrowserRouter([
                 loader: () => fetch('/phones.json'),
                 element: <Phones></Phones>
               },
+    
               {
                 path: '/macbooks',
                 loader: () => fetch('/macbooks.json'),
                 element: <Phones></Phones>
               },
-              {
-                path: '/products',
-                loader: () => fetch('allProducts.json'),
-                element: <Allproducts></Allproducts>
-              },
-
-              {
-                path: '/',
-                loader: () => fetch('allProducts.json'),
-                element: <Allproducts></Allproducts>
-              }
             ],
           }, 
         ]
@@ -84,11 +80,9 @@ const router = createBrowserRouter([
         loader: () => fetch('/allProducts.json'),
         element: <ProductDetails></ProductDetails>,
       },
-
-      
     ]
-  },
-]);
+  }
+])
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

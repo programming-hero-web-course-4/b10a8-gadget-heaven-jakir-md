@@ -1,6 +1,9 @@
 import { createContext, useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
+import { Outlet } from 'react-router-dom';
+import Footer from './components/Footer/Footer';
+
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const CartWishContext = createContext();
@@ -9,12 +12,18 @@ function App() {
 
   const [cart, setCart] = useState([]);
   const [wish, setWish] = useState([]);
-  console.log("wish from app", wish);
-  console.log("cart from app", cart);
+  const [navbar, setNavbar] = useState('');
+
   return (
-    <CartWishContext.Provider value={{cart, setCart, wish, setWish}}>
-        <div className='my-3 max-w-[1300px] mx-auto'>
+    <CartWishContext.Provider value={{cart, setCart, wish, setWish, navbar, setNavbar}}>
+        <div className=' w-[96%] max-w-[1300px] mx-auto'>
           <Navbar></Navbar>
+          <div className=''>
+              <Outlet></Outlet>
+          </div>
+        </div>
+        <div>
+          <Footer></Footer>
         </div>
     </CartWishContext.Provider>
   )

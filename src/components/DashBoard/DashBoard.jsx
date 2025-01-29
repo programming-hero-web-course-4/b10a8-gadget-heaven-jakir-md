@@ -1,16 +1,17 @@
 import { useContext } from "react";
 import { NavLink, Outlet, useLocation } from "react-router-dom";
-import { NavBarContext } from "../Navbar/Navbar";
+import { CartWishContext } from "../../App";
 
 import './dashboard.css'
+
 const DashBoard = () => {
     const navi = useLocation();
-    const [,setHome] = useContext(NavBarContext);
+    const {setNavbar} = useContext(CartWishContext);
 
-    setHome(navi.pathname);
+    setNavbar(navi.pathname);
     return (
         <div>
-            <div className="mt-5 py-3 bg-[#9538e2] text-center">
+            <div className=" py-3 bg-[#9538e2] text-center">
                 <h1 className="font-bold text-3xl text-white my-5">Dashboard</h1>
                 <p className="text-white mb-5">Explore the latest gadgets that will take your experience to the next level. From smart devices to <br /> the coolest accessories, we have it all!</p>
                 <div className="mx-auto w-52">

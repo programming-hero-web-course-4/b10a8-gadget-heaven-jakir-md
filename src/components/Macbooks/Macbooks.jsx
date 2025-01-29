@@ -6,8 +6,9 @@ const Macbooks = () => {
     return (
         <div  className="grid grid-cols-3">
             {
+                Array.isArray(macbooks) && 
                 macbooks.map((product, indx) => <ShowProduct key={indx} product={product}></ShowProduct>)
-            }
+           }
         </div>
     );
 };

@@ -1,0 +1,105 @@
+[
+    {
+        "product_id": "mobile4",
+        "product_title": "OnePlus 11",
+        "product_image": "https://i.ibb.co.com/XLzBBxP/oqqx-IRPr87e-To2e9.png",
+        "category": "Mobile Phones",
+        "price": 699.99,
+        "description": "A flagship killer with powerful specs, fast charging, and smooth OxygenOS experience.",
+        "Specification": [
+          "Qualcomm Snapdragon 8 Gen 2 Processor",
+          "16GB RAM",
+          "256GB Storage",
+          "50MP + 48MP + 32MP Triple Camera",
+          "6.7-inch AMOLED 120Hz Display"
+        ],
+        "availability": false,
+        "rating": 4.5
+      },
+      {
+        "product_id": "mobile5",
+        "product_title": "Xiaomi 13 Pro",
+        "product_image": "https://i.ibb.co.com/XLzBBxP/oqqx-IRPr87e-To2e9.png",
+        "category": "Mobile Phones",
+        "price": 799.00,
+        "description": "High-performance smartphone with Leica cameras and blazing-fast charging.",
+        "Specification": [
+          "Qualcomm Snapdragon 8 Gen 2 Processor",
+          "12GB RAM",
+          "256GB Storage",
+          "50MP + 50MP + 50MP Triple Leica Camera",
+          "6.73-inch AMOLED 120Hz Display"
+        ],
+        "availability": true,
+        "rating": 4.6
+        
+      },
+      {
+        "product_id": "mobile6",
+        "product_title": "Realme GT Neo 5",
+        "product_image": "https://i.ibb.co.com/XLzBBxP/oqqx-IRPr87e-To2e9.png",
+        "category": "Mobile Phones",
+        "price": 549.99,
+        "description": "A performance-focused smartphone with lightning-fast 240W charging technology.",
+        "Specification": [
+          "Qualcomm Snapdragon 8+ Gen 1 Processor",
+          "8GB RAM",
+          "256GB Storage",
+          "50MP + 8MP + 2MP Triple Camera",
+          "6.74-inch AMOLED 144Hz Display"
+        ],
+        "availability": false,
+        "rating": 4.4
+      },
+      {
+        "product_id": "macbook4",
+        "product_title": "MacBook Pro 16 M2 Pro",
+        "product_image": "https://i.ibb.co.com/J22HLrW/Apple-Mac-Book-Pro-M2-Feature-Blue-Green.jpg",
+        "category": "MacBooks",
+        "price": 2499.99,
+        "description": "A professional-grade MacBook Pro with M2 Pro chip and a large 16-inch display.",
+        "Specification": [
+          "Apple M2 Pro Chip",
+          "16GB Unified Memory",
+          "1TB SSD Storage",
+          "16.2-inch Liquid Retina XDR Display",
+          "22-Hour Battery Life"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "macbook5",
+        "product_title": "MacBook Air M1",
+        "product_image": "https://i.ibb.co.com/J22HLrW/Apple-Mac-Book-Pro-M2-Feature-Blue-Green.jpg",
+        "category": "MacBooks",
+        "price": 999.99,
+        "description": "The original M1-powered MacBook Air with impressive performance and battery life.",
+        "Specification": [
+          "Apple M1 Chip",
+          "8GB Unified Memory",
+          "256GB SSD Storage",
+          "13.3-inch Retina Display",
+          "18-Hour Battery Life"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "macbook6",
+        "product_title": "MacBook Pro 16 M2 Max",
+        "product_image": "https://i.ibb.co.com/J22HLrW/Apple-Mac-Book-Pro-M2-Feature-Blue-Green.jpg",
+        "category": "MacBooks",
+        "price": 3499.99,
+        "description": "The ultimate MacBook Pro with M2 Max chip for extreme performance and high-end workflows.",
+        "Specification": [
+          "Apple M2 Max Chip",
+          "32GB Unified Memory",
+          "1TB SSD Storage",
+          "16.2-inch Liquid Retina XDR Display",
+          "21-Hour Battery Life"
+        ],
+        "availability": true,
+        "rating": 4.9
+      }
+]
