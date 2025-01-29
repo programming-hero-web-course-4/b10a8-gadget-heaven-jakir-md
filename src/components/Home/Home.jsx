@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import { CartWishContext } from "../../App";
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
   const navi = useLocation();
@@ -11,6 +12,9 @@ const Home = () => {
 
   return (
     <div className="z-10">
+        <Helmet>
+            <title>Home</title>
+        </Helmet>
         <div className="h-[450px] bg-[#9538e2] rounded-b-xl">
             <h1 className="text-5xl font-bold py-5 text-center text-white">
             Upgrade Your Tech Accessorize with

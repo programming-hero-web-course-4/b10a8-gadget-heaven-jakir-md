@@ -65,7 +65,7 @@ const Cart = () => {
             <div className="flex justify-between mb-10">
                 <h1 className="text-3xl font-bold">Cart</h1>
                 <div className="flex items-center gap-5">
-                    <h1 className="text-xl font-bold">Total Cost: {totalPrice}</h1>
+                    <h1 className="text-xl font-bold">Total Cost: {totalPrice.toFixed(2)}</h1>
                     <button onClick={sortByPrice} disabled={close} className={` ${(close || totalPrice <= 0.0) ? 'cursor-not-allowed bg-gray-200 text-gray-500': 'cursor-pointer'} flex items-center gap-2 text-[#9538e2] px-2 py-1 border rounded-full border-gray-300 font-bold`}>
                         Sort By Price
                         <SlEqualizer className="font-bold text-xl"/>
@@ -85,7 +85,7 @@ const Cart = () => {
                     </div>
                     <div className="text-sm text-gray-500 py-5">
                         <p>Thanks For Purchasing.</p>
-                        <p>Total: {totalPrice}</p>
+                        <p>Total: {totalPrice.toFixed(2)}</p>
                     </div>
                     <div className="modal-action">
                     <form method="dialog">

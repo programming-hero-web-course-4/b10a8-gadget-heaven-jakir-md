@@ -19,7 +19,7 @@
     {
       "product_id": "mobile2",
       "product_title": "Apple iPhone 14",
-      "product_image": "https://i.ibb.co.com/XLzBBxP/oqqx-IRPr87e-To2e9.png",
+      "product_image": "https://i.ibb.co.com/Ld0cnp99/VPZ3-C-SQ1-0000000063-PINK-SLf.webp",
       "category": "Mobile Phones",
       "price": 899.00,
       "description": "The latest iPhone with A15 Bionic chip, improved cameras, and long battery life.",
@@ -36,7 +36,7 @@
     {
       "product_id": "mobile3",
       "product_title": "Google Pixel 7",
-      "product_image": "https://i.ibb.co.com/XLzBBxP/oqqx-IRPr87e-To2e9.png",
+      "product_image": "https://i.ibb.co.com/2YHTXdz6/Pixel-9-Pro-Porcelain-8239.jpg",
       "category": "Mobile Phones",
       "price": 599.99,
       "description": "Google's latest smartphone with exceptional AI features and a clean Android experience.",
@@ -51,4 +51,3 @@
       "rating": 4.6
     }
   ]
-  

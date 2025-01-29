@@ -12,7 +12,6 @@ const Products = () => {
                         <NavLink to="/phones" className="px-4 py-2 bg-gray-200 text-gray-700 text-center rounded-2xl">Phones</NavLink>
                         <NavLink to="/macbooks" className="px-4 py-2 bg-gray-200 text-gray-700 text-center rounded-2xl">Macbooks</NavLink>
                         <NavLink to="/accessories" className="px-4 py-2 bg-gray-200 text-gray-700 text-center rounded-2xl">Accessories</NavLink>
-                        <NavLink to="/smartwatches" className="px-4 py-2 bg-gray-200 text-gray-700 text-center rounded-2xl">Smart Watches</NavLink>
                         <NavLink to="/iphones" className="px-4 py-2 bg-gray-200 text-gray-700 text-center rounded-2xl">Iphones</NavLink>
                     </div>
                 </div>

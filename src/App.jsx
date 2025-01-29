@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import { Outlet } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
-
+import Favicon from "react-favicon";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const CartWishContext = createContext();
@@ -16,6 +16,7 @@ function App() {
 
   return (
     <CartWishContext.Provider value={{cart, setCart, wish, setWish, navbar, setNavbar}}>
+      <Favicon url={`/favicon-16x16.png`} />
         <div className=' w-[96%] max-w-[1300px] mx-auto'>
           <Navbar></Navbar>
           <div className=''>

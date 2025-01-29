@@ -19,6 +19,9 @@ import Cart from './components/Cart/Cart.jsx';
 import WishList from './components/WishList/WishList.jsx';
 import Phones from './components/Phones/Phones.jsx';
 import Allproducts from './components/All-products/Allproducts.jsx';
+import Offers from './components/Offers/Offers.jsx';
+import Accessories from './components/Accessories/Accessories.jsx';
+import Iphones from './components/Iphones/Iphones.jsx';
 
 const router = createBrowserRouter([
   {
@@ -55,6 +58,14 @@ const router = createBrowserRouter([
                 loader: () => fetch('/macbooks.json'),
                 element: <Phones></Phones>
               },
+              {
+                path: '/accessories',
+                element: <Accessories></Accessories>
+              },
+              {
+                path: '/iphones',
+                element: <Iphones></Iphones>
+              },
             ],
           }, 
         ]
@@ -73,6 +84,12 @@ const router = createBrowserRouter([
             element: <WishList></WishList>
           }
         ]
+      },
+
+      {
+        path: '/offers',
+        loader: () => fetch('/phones.json'),
+        element: <Offers></Offers>,
       },
 
       {

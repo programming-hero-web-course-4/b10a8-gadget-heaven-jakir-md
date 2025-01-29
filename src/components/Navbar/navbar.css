@@ -1,6 +1,15 @@
-#navbarid > a.active {
+/* #navbarid > a.active {
     color: #9538e2;
     font-weight: bold;
     border-bottom: 2px solid #9538e2;
     background-color: none;
+} */
+
+#navbarid > a.active {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
 }

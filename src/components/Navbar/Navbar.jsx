@@ -16,10 +16,11 @@ const Navbar = () => {
                 <div>
                     <h1 className={`font-bold ${navbar === '' ? 'text-white' : 'text-black'}`}>Gadget Heaven</h1>
                 </div>
-                <div id="navbarid" className={`flex gap-3 ${navbar === '' ? 'text-white' : 'text-gray-500'}`}>
-                    <Link to="/">Home</Link>
+                <div id="navbarid" className={`flex gap-5 justify-center items-center ${navbar === '' ? 'text-white' : 'text-gray-500'}`}>
+                    <NavLink to="/">Home</NavLink>
                     <NavLink to="/statistics">Statistics</NavLink>
                     <NavLink to="/dashboard">Dashboard</NavLink>
+                    <NavLink to="/offers">Offers</NavLink>
                 </div>
                 <div className="flex gap-6">
                     <div>

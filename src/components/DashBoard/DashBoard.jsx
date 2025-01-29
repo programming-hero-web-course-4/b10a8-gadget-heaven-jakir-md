@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { NavLink, Outlet, useLocation } from "react-router-dom";
 import { CartWishContext } from "../../App";
+import { Helmet } from 'react-helmet';
 
 import './dashboard.css'
 
@@ -11,6 +12,9 @@ const DashBoard = () => {
     setNavbar(navi.pathname);
     return (
         <div>
+            <Helmet>
+                <title>Dashboard</title>
+            </Helmet>
             <div className=" py-3 bg-[#9538e2] text-center">
                 <h1 className="font-bold text-3xl text-white my-5">Dashboard</h1>
                 <p className="text-white mb-5">Explore the latest gadgets that will take your experience to the next level. From smart devices to <br /> the coolest accessories, we have it all!</p>
